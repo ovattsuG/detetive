@@ -292,7 +292,7 @@ function App() {
               </li>
             </ul>
             {/* TROCAR LINK */}
-            <a className='btnContrate btnContrate-celular btnD' href='https://www.mercadopago.com.br/checkout/v1/payment/redirect/97210bc3-3e87-4521-8fee-5b77bbad0669/payment-option-form/?router-request-id=c01680aa-682c-4646-88b8-005377a66349&preference-id=1033283793-e63e934b-19a5-4757-9124-a6e6667c8921&source=link&p=2a982f7c4fa9a949d95d3cba4aa03778#/'>
+            <a className=' btnContrate-celular btnD' href='https://www.mercadopago.com.br/checkout/v1/payment/redirect/97210bc3-3e87-4521-8fee-5b77bbad0669/payment-option-form/?router-request-id=c01680aa-682c-4646-88b8-005377a66349&preference-id=1033283793-e63e934b-19a5-4757-9124-a6e6667c8921&source=link&p=2a982f7c4fa9a949d95d3cba4aa03778#/'>
               CONTRATE JÁ
             </a>
             <span className='textbtn'>*Direito a 1 consulta</span>
@@ -372,7 +372,7 @@ function App() {
               </li>
             </ul>
             {/* TROCAR LINK */}
-            <a className='btnContrate btnContrate-premium' href='https://www.mercadopago.com.br/checkout/v1/payment/redirect/97210bc3-3e87-4521-8fee-5b77bbad0669/payment-option-form/?router-request-id=c01680aa-682c-4646-88b8-005377a66349&preference-id=1033283793-e63e934b-19a5-4757-9124-a6e6667c8921&source=link&p=2a982f7c4fa9a949d95d3cba4aa03778#/'>
+            <a className='btnContrate-premium' href='https://www.mercadopago.com.br/checkout/v1/payment/redirect/97210bc3-3e87-4521-8fee-5b77bbad0669/payment-option-form/?router-request-id=c01680aa-682c-4646-88b8-005377a66349&preference-id=1033283793-e63e934b-19a5-4757-9124-a6e6667c8921&source=link&p=2a982f7c4fa9a949d95d3cba4aa03778#/'>
               CONTRATE JÁ
             </a>
             <span className='textbtn'>*Direito a 1 consulta</span>
