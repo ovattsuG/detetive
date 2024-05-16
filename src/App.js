@@ -124,7 +124,7 @@ function App() {
           </span>
           <a className='btnContratar'>Quero Contratar</a>
           <img className='gif1' src={gif1} alt="gif" />
-          <img className='gif2' src={gif1} alt="gif" />
+          
         </div>
         <div className='desktopHome'>
           <img className='gif1' src={gif1} alt="gif" />
@@ -133,7 +133,8 @@ function App() {
               segura e sem Burocracia.
               Somos especialistas em informações cadastrais.
               Receba a investigação direto no seu WhatApp!
-            </span><a className='btnContratar'>Quero Contratar</a>
+            </span>
+            <a className='btnContratar'>Quero Contratar</a>
           </h1>
         </div>
       </div>
@@ -194,13 +195,13 @@ function App() {
             <span className='descricao-card'>A consulta é feita pelo Nome Completo ou CPF e vem
               com as seguintes informações:
               <p>de R$ 167,80</p>
-              <div class="price">
+              <div class="price priceD">
                 <span class="currency">R$</span>
                 <span class="large-number">85</span>
                 <span class="small-number">,80</span>
               </div>
             </span>
-            <ul className='info-list'>
+            <ul className='info-list info-listD'>
               <li>
                 <img src={confirme} alt='Confirme' />
                 Nome Completo
@@ -235,7 +236,7 @@ function App() {
               </li>
             </ul>
             {/* TROCAR LINK */}
-            <a className='btnContrate' href='https://www.mercadopago.com.br/checkout/v1/payment/redirect/97210bc3-3e87-4521-8fee-5b77bbad0669/payment-option-form/?router-request-id=c01680aa-682c-4646-88b8-005377a66349&preference-id=1033283793-e63e934b-19a5-4757-9124-a6e6667c8921&source=link&p=2a982f7c4fa9a949d95d3cba4aa03778#/'>
+            <a className='btnContrate btnD1' href='https://www.mercadopago.com.br/checkout/v1/payment/redirect/97210bc3-3e87-4521-8fee-5b77bbad0669/payment-option-form/?router-request-id=c01680aa-682c-4646-88b8-005377a66349&preference-id=1033283793-e63e934b-19a5-4757-9124-a6e6667c8921&source=link&p=2a982f7c4fa9a949d95d3cba4aa03778#/'>
               CONTRATE JÁ
             </a>
             <span className='textbtn'>*Direito a 1 consulta</span>
@@ -246,13 +247,13 @@ function App() {
             <span className='descricao-card'>Através do Número do Telefone, levantamos
               todas as informações do Titular da Linha
               <p>de R$ 197,90</p>
-              <div class="price">
+              <div class="price priceD">
                 <span class="currency currency-celular">R$</span>
                 <span class="large-number">127</span>
                 <span class="small-number">,80</span>
               </div>
             </span>
-            <ul className='info-list'>
+            <ul className='info-list info-listD'>
               <li>
                 <img src={confirme} alt='Confirme' />
                 Nome Completo
@@ -291,7 +292,7 @@ function App() {
               </li>
             </ul>
             {/* TROCAR LINK */}
-            <a className='btnContrate btnContrate-celular' href='https://www.mercadopago.com.br/checkout/v1/payment/redirect/97210bc3-3e87-4521-8fee-5b77bbad0669/payment-option-form/?router-request-id=c01680aa-682c-4646-88b8-005377a66349&preference-id=1033283793-e63e934b-19a5-4757-9124-a6e6667c8921&source=link&p=2a982f7c4fa9a949d95d3cba4aa03778#/'>
+            <a className='btnContrate btnContrate-celular btnD' href='https://www.mercadopago.com.br/checkout/v1/payment/redirect/97210bc3-3e87-4521-8fee-5b77bbad0669/payment-option-form/?router-request-id=c01680aa-682c-4646-88b8-005377a66349&preference-id=1033283793-e63e934b-19a5-4757-9124-a6e6667c8921&source=link&p=2a982f7c4fa9a949d95d3cba4aa03778#/'>
               CONTRATE JÁ
             </a>
             <span className='textbtn'>*Direito a 1 consulta</span>
@@ -618,6 +619,34 @@ function App() {
         <span>Todos os dias: das 8:30 ás 22h00 (Horário de Brasília)</span>
         <h3>Formas de Pagamento</h3>
         <img className='pagamentoicon' src={iconpagamento} />
+      </div>
+      <div className='contatosD'>
+        <div className='contato'>
+          <img className='logocontato' src={logo} alt='logo' />
+          <div className='containerC'><a className='wpp' href='#'><img className='wppimg' src={wppIcon} />WhatApp Oficial</a>
+            <span className='email'><img className='emailimg' src={email} />Detetive@gmail.com</span>
+          </div>
+        </div>
+        {/* Mudar links ou tirar indice */}
+        <div className='container'>
+          <div className='textocontatosD'>
+            <h3>Índice do Site</h3>
+            <a href='#'>Vantagens</a>
+            <a href='#'>Preço</a>
+            <a href='#'>Depoimentos</a>
+            <a href='#'>FAQ</a>
+            <a href='#'>Blog</a>
+            <a href='#'>Contato</a>
+          </div>
+          <div className='horario'>
+            <h3>Horários de Atendimento</h3>
+            <span>Todos os dias: das 8:30 ás 22h00 (Horário de Brasília)</span>
+          </div>
+          <div className='pagamento'>
+            <h3>Formas de Pagamento</h3>
+            <img className='pagamentoicon' src={iconpagamento} />
+          </div>
+        </div>
       </div>
       <footer className='footer'>
         <p>Copyright &copy; Detetive Virtual 2024. Todos os direitos reservados.</p>

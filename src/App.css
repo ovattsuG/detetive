@@ -4,6 +4,7 @@
 }
 
 .App-header {
+  overflow-y: hidden;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -11,6 +12,7 @@
 }
 
 .App-logo {
+  overflow-y: hidden;
   width: 10em;
   height: 9em;
   cursor: pointer;
@@ -18,17 +20,23 @@
 }
 
 .App-logo:hover {
+  overflow-y: hidden;
   transform: scale(0.9);
 }
-.MenuDesktop{
+
+.MenuDesktop {
+  overflow-y: hidden;
   display: none;
 }
+
 .imgMenu {
+  overflow-y: hidden;
   width: 25px;
   cursor: pointer;
 }
 
 .Menu-options {
+  overflow-y: hidden;
   position: absolute;
   width: 100vw;
   margin-top: -2.4em;
@@ -39,11 +47,13 @@
 }
 
 .Menu-options ul {
+  overflow-y: hidden;
   margin: 0;
   padding: 0;
 }
 
 .Menu-options-li {
+  overflow-y: hidden;
   padding: 10px;
   text-decoration: none;
   border: solid 1px white;
@@ -51,6 +61,7 @@
 }
 
 .Menu-options a {
+  overflow-y: hidden;
   margin-left: 1em;
   text-decoration: none;
   color: white;
@@ -58,6 +69,7 @@
 
 /* Primeira Section */
 .home {
+  overflow-y: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,6 +77,7 @@
 }
 
 .titulo {
+  overflow-y: hidden;
   width: 70%;
   color: rgb(0, 0, 150);
   font-size: 24px;
@@ -73,6 +86,7 @@
 }
 
 .text-home {
+  overflow-y: hidden;
   width: 70%;
   margin-top: 2em;
   text-align: justify;
@@ -82,7 +96,8 @@
 }
 
 .btnContratar {
-  width: 60%;
+
+  width: 50%;
   border: none;
   border-radius: 25px;
   cursor: pointer;
@@ -93,15 +108,18 @@
   color: white;
   background-color: rgb(0, 170, 255);
   transition: transform 0.3s ease;
+  overflow-y: hidden;
 }
 
 .btnContratar:hover {
+  overflow-y: hidden;
   background-color: rgb(0, 81, 122);
   transform: scale(0.8);
 }
 
 /* como funciona css */
 .ComoFunciona {
+  overflow-y: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -110,16 +128,19 @@
 }
 
 .ComoFunciona h5 {
+  overflow-y: hidden;
   margin-bottom: 1em;
   color: rgb(0, 0, 165);
 }
 
 .ComoFunciona h2 {
+  overflow-y: hidden;
   margin-bottom: 1em;
   color: rgb(0, 0, 135);
 }
 
 .ComoFunciona h3 {
+  overflow-y: hidden;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -133,6 +154,7 @@
 }
 
 .descricao {
+  overflow-y: hidden;
   width: 70%;
   margin: 1em;
   color: rgb(0, 0, 135);
@@ -140,19 +162,23 @@
 }
 
 .negrito {
+  overflow-y: hidden;
   font-weight: bold;
 }
 
 .textFunciona {
+  overflow-y: hidden;
   margin-bottom: 1.5em;
 }
 
 .ComoFunciona span {
+  overflow-y: hidden;
   line-height: 1.5;
 }
 
 /* consultas */
 .Consultas {
+  overflow-y: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -162,6 +188,7 @@
 }
 
 .Consultas h1 {
+  overflow-y: hidden;
   width: 100%;
   font-weight: 1000;
   font-size: 40px;
@@ -171,15 +198,18 @@
 }
 
 .Consultas h5 {
+  overflow-y: hidden;
   margin-top: -0.7em;
   color: rgb(0, 0, 165);
 }
 
 .desconto {
+  overflow-y: hidden;
   color: rgb(0, 210, 0);
 }
 
 .Consultas h2 {
+  overflow-y: hidden;
   width: 85%;
   margin-top: 1em;
   margin-bottom: 2em;
@@ -188,6 +218,7 @@
 
 /* card consulta */
 .card-desktop {
+  overflow-y: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -195,6 +226,7 @@
 
 /* padrao de cards */
 .card {
+  overflow-y: hidden;
   position: relative;
   width: 90%;
   height: 90vh;
@@ -208,6 +240,7 @@
 }
 
 .card::after {
+  overflow-y: hidden;
   content: "48%OFF";
   width: 200px;
   position: absolute;
@@ -222,11 +255,13 @@
 }
 
 .card:hover {
+  overflow-y: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.301);
 }
 
 /* card2 */
 .card-celular::after {
+  overflow-y: hidden;
   content: "35%OFF";
   width: 200px;
   position: absolute;
@@ -242,10 +277,12 @@
 
 /* card3 */
 .card-premium {
+  overflow-y: hidden;
   height: 112vh;
 }
 
 .card-premium::after {
+  overflow-y: hidden;
   content: "43%OFF";
   width: 200px;
   position: absolute;
@@ -260,11 +297,13 @@
 }
 
 .titulo {
+  overflow-y: hidden;
   padding-top: 1em;
   font-weight: 800;
 }
 
 .descricao-premium {
+  overflow-y: hidden;
   width: 90%;
   height: 30%;
   margin-top: -1em;
@@ -274,6 +313,7 @@
 }
 
 .descricao-card {
+  overflow-y: hidden;
   width: 90%;
   font-size: 14px;
   font-weight: 500;
@@ -281,10 +321,12 @@
 }
 
 .card p {
+  overflow-y: hidden;
   text-decoration: line-through;
 }
 
 .price {
+  overflow-y: hidden;
   width: 100%;
   position: relative;
   display: inline-block;
@@ -294,6 +336,7 @@
 
 .currency,
 .small-number {
+  overflow-y: hidden;
   position: absolute;
   font-size: 18px;
   font-weight: 800;
@@ -301,19 +344,23 @@
 }
 
 .currency {
+  overflow-y: hidden;
   left: 90px;
 }
 
 .currency-celular {
+  overflow-y: hidden;
   left: 70px;
 }
 
 .large-number {
+  overflow-y: hidden;
   font-size: 62px;
   margin-left: 5px;
 }
 
 .info-list {
+  overflow-y: hidden;
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -328,17 +375,20 @@
 }
 
 .info-list-premium {
+  overflow-y: hidden;
   margin-top: -6em;
   margin-bottom: 0.5em;
 }
 
 .info-list li {
+  overflow-y: hidden;
   display: flex;
   align-items: center;
   margin-top: 10px;
 }
 
 .info-list img {
+  overflow-y: hidden;
   padding-right: 1em;
   width: 20px;
   height: 20px;
@@ -346,6 +396,7 @@
 }
 
 .btnContrate {
+  overflow-y: hidden;
   width: 45%;
   font-weight: bold;
   text-decoration: none;
@@ -359,24 +410,29 @@
 }
 
 .btnContrate:hover {
+  overflow-y: hidden;
   background-color: rgb(0, 0, 135);
 }
 
 .btnContrate-premium {
+  overflow-y: hidden;
   margin-top: 1em;
 }
 
 .btnContrate-celular {
+  overflow-y: hidden;
   margin-top: 3em;
 }
 
 .textbtn {
+  overflow-y: hidden;
   font-size: 12px;
   font-weight: 500;
 }
 
 /* Vantagens */
 .vantagens {
+  overflow-y: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -385,6 +441,7 @@
 }
 
 .titulo-vantagens {
+  overflow-y: hidden;
   width: 100%;
   font-weight: 1000;
   font-size: 40px;
@@ -394,15 +451,18 @@
 }
 
 .vantagens h5 {
+  overflow-y: hidden;
   margin-top: -0.7em;
   color: rgb(0, 0, 165);
 }
 
 .sub-titulo {
+  overflow-y: hidden;
   color: rgb(0, 0, 135);
 }
 
 .text-vantagens {
+  overflow-y: hidden;
   width: 90%;
   margin-top: 1em;
   text-align: justify;
@@ -411,6 +471,7 @@
 }
 
 .CardsV-desktop {
+  overflow-y: hidden;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -419,6 +480,7 @@
 }
 
 .card-info {
+  overflow-y: hidden;
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -431,6 +493,7 @@
 }
 
 .card-info img {
+  overflow-y: hidden;
   width: 50px;
   margin-top: 1.5em;
   transition: width 0.3s ease;
@@ -438,10 +501,12 @@
 }
 
 .card-info img:hover {
+  overflow-y: hidden;
   width: 55px;
 }
 
 .card-info h3 {
+  overflow-y: hidden;
   font-size: 15px;
   color: rgb(0, 0, 135);
   margin-bottom: 1em;
@@ -449,11 +514,13 @@
 }
 
 .card-info span {
+  overflow-y: hidden;
   width: 90%;
   font-size: 14px;
 }
 
 .card-info a {
+  overflow-y: hidden;
   width: 50%;
   text-decoration: none;
   font-size: 16px;
@@ -469,6 +536,7 @@
 }
 
 .card-info a:hover {
+  overflow-y: hidden;
   background-color: rgb(0, 81, 122);
   transform: scale(1.1);
   /* Aumenta a escala em 10% */
@@ -476,6 +544,7 @@
 
 /* Depoimentos */
 .Depoimentos {
+  overflow-y: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -484,6 +553,7 @@
 }
 
 .titulo-depoimentos {
+  overflow-y: hidden;
   width: 100%;
   font-weight: 1000;
   font-size: 40px;
@@ -493,11 +563,13 @@
 }
 
 .Depoimentos h5 {
+  overflow-y: hidden;
   margin-top: -0.7em;
   color: rgb(0, 0, 165);
 }
 
 .CardsD-desktop {
+  overflow-y: hidden;
   width: 90%;
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.103);
@@ -506,16 +578,19 @@
 }
 
 .CardsD-desktop img {
+  overflow-y: hidden;
   width: 80%;
   margin-top: 1em;
   transition: transform 0.3s ease;
 }
 
 .CardsD-desktop img:hover {
+  overflow-y: hidden;
   transform: scale(0.9);
 }
 
 .card-dados {
+  overflow-y: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -528,22 +603,26 @@
 }
 
 .card-dados img {
+  overflow-y: hidden;
   width: 50px;
   margin-top: 2em;
 }
 
 .card-dados h2,
 h3 {
+  overflow-y: hidden;
   color: rgb(0, 0, 165);
 }
 
 .card-dados span {
+  overflow-y: hidden;
   width: 90%;
   text-align: justify;
   margin: 2em auto;
 }
 
 .card-dados ul {
+  overflow-y: hidden;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -554,11 +633,13 @@ h3 {
 }
 
 .card-dados li {
+  overflow-y: hidden;
   text-align: left;
   margin-top: 5px;
 }
 
 .progress-bar {
+  overflow-y: hidden;
   display: flex;
   width: 85%;
   height: 20px;
@@ -567,6 +648,7 @@ h3 {
 }
 
 .progress {
+  overflow-y: hidden;
   font-size: 12px;
   font-weight: bold;
   color: white;
@@ -579,6 +661,7 @@ h3 {
 }
 
 .progress1 {
+  overflow-y: hidden;
   font-size: 12px;
   font-weight: bold;
   color: white;
@@ -591,6 +674,7 @@ h3 {
 }
 
 .progress2 {
+  overflow-y: hidden;
   font-size: 12px;
   font-weight: bold;
   color: white;
@@ -603,6 +687,7 @@ h3 {
 }
 
 .progress3 {
+  overflow-y: hidden;
   font-size: 12px;
   font-weight: bold;
   color: white;
@@ -616,6 +701,7 @@ h3 {
 }
 
 .titulo-barstatus {
+  overflow-y: hidden;
   width: 90%;
   display: flex;
   justify-content: flex-start;
@@ -625,11 +711,13 @@ h3 {
 }
 
 .space {
+  overflow-y: hidden;
   margin-bottom: 2em;
 }
 
 /* FAQ */
 .FAQ {
+  overflow-y: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -638,6 +726,7 @@ h3 {
 }
 
 .titulo-FAQ {
+  overflow-y: hidden;
   width: 100%;
   font-weight: 1000;
   font-size: 40px;
@@ -647,11 +736,13 @@ h3 {
 }
 
 .FAQ h5 {
+  overflow-y: hidden;
   margin-top: -0.7em;
   color: rgb(0, 0, 165);
 }
 
 .duvidas {
+  overflow-y: hidden;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -662,6 +753,7 @@ h3 {
 }
 
 .duvidas h3 {
+  overflow-y: hidden;
   width: 85%;
   color: white;
   margin-top: 1em;
@@ -670,6 +762,7 @@ h3 {
 }
 
 .duvidas h4 {
+  overflow-y: hidden;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -684,6 +777,7 @@ h3 {
 }
 
 .listalgpd {
+  overflow-y: hidden;
   width: 100%;
   margin-top: 1em;
   text-align: left;
@@ -691,12 +785,14 @@ h3 {
 }
 
 .listalgpd li {
+  overflow-y: hidden;
   margin-left: 0;
   padding-top: 0.5em;
 
 }
 
 .contrate {
+  overflow-y: hidden;
   width: 100%;
   height: 30vh;
   display: flex;
@@ -708,12 +804,14 @@ h3 {
 }
 
 .contrate h5 {
+  overflow-y: hidden;
   color: white;
   margin-top: 2em;
   margin-bottom: 1em;
 }
 
 .contrate span {
+  overflow-y: hidden;
   width: 90%;
   font-size: 20px;
   color: white;
@@ -721,6 +819,7 @@ h3 {
 }
 
 .contrate a {
+  overflow-y: hidden;
   width: 50%;
   color: white;
   text-decoration: none;
@@ -732,11 +831,13 @@ h3 {
 }
 
 .contrate a:hover {
+  overflow-y: hidden;
   transform: scale(1.1);
 }
 
 /* contato */
 .contatos {
+  overflow-y: hidden;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -745,6 +846,7 @@ h3 {
 }
 
 .wpp {
+  overflow-y: hidden;
   width: 52%;
   cursor: pointer;
   display: flex;
@@ -759,18 +861,22 @@ h3 {
 }
 
 .wpp:hover {
+  overflow-y: hidden;
   transform: scale(0.9);
 }
 
 .wppimg {
+  overflow-y: hidden;
   width: 50px;
 }
 
 .logocontato {
+  overflow-y: hidden;
   width: 200px;
 }
 
 .email {
+  overflow-y: hidden;
   display: flex;
   margin-top: 1em;
   justify-content: center;
@@ -779,67 +885,93 @@ h3 {
 }
 
 .emailimg {
+  overflow-y: hidden;
   width: 30px;
 }
-.contatos h3{
+
+.contatos h3 {
+  overflow-y: hidden;
   margin-top: 2em;
 }
-.contatos a{
+
+.contatos a {
+  overflow-y: hidden;
   text-decoration: none;
   cursor: pointer;
 }
-.contatos span{
+
+.contatos span {
+  overflow-y: hidden;
   text-align: center;
 }
-.pagamentoicon{
+
+.pagamentoicon {
+  overflow-y: hidden;
   width: 50%;
 }
-.footer p{
+
+.footer p {
+  overflow-y: hidden;
   padding: 10px;
   text-align: center;
   color: white;
- background-color: #007bff;
+  background-color: #007bff;
 }
-.mobilehome{
+
+.mobilehome {
+  overflow-y: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-decoration: none;
 }
-.desktopHome{
+
+.desktopHome {
+  overflow-y: hidden;
   display: none;
 }
-.gif3{
-  display :none;
+
+.gif3 {
+  overflow-y: hidden;
+  display: none;
 }
+
 /* desktop */
 @media only screen and (min-width: 1024px) {
-  .mobilehome{
+  .mobilehome {
     display: none;
   }
-  
-  .imgMenu,.Menu-options, .Menu{
+
+  .imgMenu,
+  .Menu-options,
+  .Menu {
     display: none;
   }
-  .MenuDesktop{
+
+  .MenuDesktop {
     width: 100%;
     display: flex;
     text-align: center;
   }
-  .App-header{
+
+  .App-header {
+    overflow-y: hidden;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-top: -1em;
     margin-bottom: 3em;
   }
-  .App-logo{
-    width: 20%;
+
+  .App-logo {
+    width: 15%;
     height: 20vh;
-    margin-left: 12em;
+    margin-left: 15em;
   }
-  .navbar  {
+
+  .navbar {
+    overflow-y: hidden;
     width: 100%;
     display: flex;
     align-items: center;
@@ -847,15 +979,21 @@ h3 {
     text-align: center;
     margin-left: 6em;
   }
+
   .navbar li {
-   display: flex;
-   margin-left: 2em;
+    overflow-y: hidden;
+    display: flex;
+    margin-left: 2em;
   }
-  .navbar a{
+
+  .navbar a {
+    overflow-y: hidden;
     text-decoration: none;
-  
+
   }
+
   .btnheader {
+    overflow-y: hidden;
     display: flex;
     justify-content: center;
     width: 15%;
@@ -868,134 +1006,296 @@ h3 {
     background-color: #007bff;
     transition: transform 0.3s;
   }
-  
+
   .btnheader:hover {
-    transform: scale(1.03); 
+    transform: scale(1.03);
   }
-  .desktopHome, .text-home{
-    display: grid;
-    grid-template-columns: 40% 40%;
+
+/* Home */
+  .desktopHome {
+    width: 90vw;
+    overflow-y: hidden;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+
   }
-  .home{
+
+  .home {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    margin-bottom: 8em;
   }
-  .btnContratar{
-    font-size: 18px;
-    margin-right: 1em;
-    width: 50%;
-    height: 3vh;
-  }
-  .text-home{
+
+  .text-home {
+    overflow-y: hidden;
     color: black;
-    font-size: 14px;
-    letter-spacing: 1px;
-    width: 150%;
-    text-align: justify;
-    margin-bottom: 1em;
-    margin-left: 2.5em;
+    font-size: 16px;
+    text-align: start;
   }
-  .gif1{
-    margin-left: 10em;
+
+  .titulo {
+    /* width: 50%; */
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
   }
-  .gif3{
+
+  .titulo a {
+    width: 20vw;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 1.5em;
+    color: white;
+    background-color: rgb(0, 170, 255);
+    transition: transform 0.3s ease;
+    overflow-y: hidden;
+  }
+
+  .gif1 {
+    overflow-y: hidden;
+    margin-left: 8em;
+  }
+
+  .gif3 {
+    overflow-y: hidden;
     display: flex;
   }
-  .ComoFunciona h3{
+
+  
+
+  .ComoFunciona h3 {
+    overflow-y: hidden;
     width: 50%;
     justify-content: space-between;
-    
+
   }
-  .textFunciona{
+
+  .textFunciona {
+    overflow: hidden;
     font-weight: bold;
   }
-  .descricao{
+
+  .descricao {
+    overflow: hidden;
     width: 40%;
     text-align: center;
 
   }
-  .card-desktop{
+
+  /* consulta */
+  .card-desktop {
+    overflow-y: hidden;
+    overflow: hidden;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
+
+  .priceD {
+    margin-top: 2em;
+  }
+
+  .info-listD {
+    margin-top: 0.01em;
+  }
+
+  .btnD {
+    margin-top: 12.2em;
+  }
+
+  .btnD1 {
+    margin-top: 14em;
+  }
+
   .card {
+    overflow-y: hidden;
     width: 31%;
     margin-left: 15px;
+    height: 150vh;
   }
-  .card-celular{
-    height: 95vh;
+
+  .card-celular {
+    overflow-y: hidden;
+
   }
-  .text-vantagens{
+
+  /* vantagens */
+  .text-vantagens {
     justify-self: center;
     align-self: center;
     text-align: center;
   }
-  .CardsV-desktop{
+
+  .CardsV-desktop {
     display: grid;
     grid-template-columns: 45% 45%;
-    height: 100vh;
+    z-index: 99;
   }
-  
-  .card-info{
+
+  .card-info {
     justify-self: center;
     align-self: center;
+    z-index: 99;
   }
-  .card-info:hover{
+
+  .card-info:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
   }
-  .Depoimentos{
+
+  .Depoimentos {
     margin-top: 4em;
   }
-  .CardsD-desktop{
+
+  .CardsD-desktop {
     width: 50%;
     display: grid;
     grid-template-columns: 33% 33% 33%;
   }
-  .CardsD-desktop img{
+
+  .CardsD-desktop img {
     justify-self: center;
     align-self: center;
   }
-  .card-dados{
+
+  .card-dados {
     width: 50%;
   }
-  .card-dados span{
+
+  .card-dados span {
     width: 50%;
     text-align: center;
   }
-  .progress-bar{
+
+  .progress-bar {
     width: 50%;
   }
-  .titulo-barstatus{
+
+  .titulo-barstatus {
     justify-content: flex-start;
     margin-left: 27em;
   }
 
-  .card-dados ul{
+  .card-dados ul {
     display: flex;
     margin-left: 50%;
   }
-  .duvidas h3{
+
+  .duvidas h3 {
     width: 50%;
     padding: 10px;
   }
-  .duvidas h4{
+
+  .duvidas h4 {
     width: 50%;
   }
-  .pagamentoicon{
+
+  .pagamentoicon {
     width: 15%;
-    
+
   }
-  .wpp{
-    width: 15%;
+
+  .wpp {
+    width: 80%;
+    height: 10%
   }
-  .footer p{
+
+  .email {
+    margin-bottom: 1em;
+    margin-left: 1em;
+  }
+
+  .contatos {
+    display: none;
+  }
+
+  .logocontato {
+    width: 150px;
+    z-index: 100;
+  }
+
+  .contatosD {
+    margin-top: -2em;
+    z-index: 100;
+    display: grid;
+    grid-template-columns: 30% 40%;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .container {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contato {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .textocontatosD {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  .textocontatosD a {
+    text-decoration: none;
+
+  }
+
+  .textocontatosD h3 {
+    margin-top: 1em;
+    font-size: 22px;
+  }
+
+  .containerC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .horario {
+    text-align: center;
+  }
+
+  .pagamento {
+    text-align: center;
+  }
+
+  .pagamentoicon {
+    width: 70%;
+  }
+
+  .footer p {
     padding: 30px;
   }
- .titulo-vantagens ,.titulo-depoimentos, .titulo-FAQ, .Consultas h1{
-  font-size: 64px;
-  margin-top: 1em;
- }
+
+  .titulo-vantagens,
+  .titulo-depoimentos,
+  .titulo-FAQ,
+  .Consultas h1 {
+    font-size: 64px;
+  }
 }
