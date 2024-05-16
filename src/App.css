@@ -2,7 +2,9 @@
   overflow-x: hidden;
   margin: 0;
 }
-
+.body{
+  overflow-x: hidden;
+}
 .App-header {
   overflow-y: hidden;
   display: flex;
