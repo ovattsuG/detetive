@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Detetive Brasil",
+  "name": "O melhor site de detetive virtual do brasil!",
   "icons": [
     {
-      "src": "logoDetetive.ico",
+      "src": "logoDetetive.icon",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
