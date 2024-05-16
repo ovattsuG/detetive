@@ -190,7 +190,7 @@ function App() {
           <br /><span className='desconto'>Aproveite! Consultas Até 48%OFF</span>
         </h2>
         <div className='card-desktop'>
-          <div className='card'>
+          <div className='card card-celular'>
             <h2 className='titulo'>Pelo nome ou CPF</h2>
             <span className='descricao-card'>A consulta é feita pelo Nome Completo ou CPF e vem
               com as seguintes informações:

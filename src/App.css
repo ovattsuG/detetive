@@ -280,7 +280,7 @@
 /* card3 */
 .card-premium {
   overflow-y: hidden;
-  height: 112vh;
+  height: 115vh;
 }
 
 .card-premium::after {
@@ -940,6 +940,18 @@ h3 {
 }
 .contatosD{
   display: none;
+}
+@media only screen and (max-width: 400px){
+  .card-celular{
+    height: 100vh;
+  }
+  .card-premium{
+    height: 130vh;
+  }
+
+  .card-desktop{
+    height: 100%;
+  }
 }
 
 /* desktop */
