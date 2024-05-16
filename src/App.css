@@ -1,0 +1,1000 @@
+* {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(230, 230, 230);
+}
+
+.App-logo {
+  width: 10em;
+  height: 9em;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.App-logo:hover {
+  transform: scale(0.9);
+}
+.MenuDesktop{
+  display: none;
+}
+.imgMenu {
+  width: 25px;
+  cursor: pointer;
+}
+
+.Menu-options {
+  position: absolute;
+  width: 100vw;
+  margin-top: -2.4em;
+  text-align: start;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(0, 170, 255);
+}
+
+.Menu-options ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Menu-options-li {
+  padding: 10px;
+  border: solid 1px white;
+  z-index: 99;
+}
+
+.Menu-options a {
+  margin-left: 1em;
+  text-decoration: none;
+  color: white;
+}
+
+/* Primeira Section */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo {
+  width: 92%;
+  color: rgb(0, 0, 150);
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.text-home {
+  width: 90%;
+  margin-top: 2em;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.btnContratar {
+  width: 85%;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 1.5em;
+  color: white;
+  background-color: rgb(0, 170, 255);
+  transition: transform 0.3s ease;
+}
+
+.btnContratar:hover {
+  background-color: rgb(0, 81, 122);
+  transform: scale(0.8);
+}
+
+/* como funciona css */
+.ComoFunciona {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.ComoFunciona h5 {
+  margin-bottom: 1em;
+  color: rgb(0, 0, 165);
+}
+
+.ComoFunciona h2 {
+  margin-bottom: 1em;
+  color: rgb(0, 0, 135);
+}
+
+.ComoFunciona h3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  width: 90%;
+  margin-top: 0.5em;
+  border-radius: 8px;
+  padding: 10px;
+  color: rgb(0, 0, 135);
+  background-color: rgba(255, 255, 255, 0.502);
+}
+
+.descricao {
+  width: 70%;
+  margin: 1em;
+  color: rgb(0, 0, 135);
+  text-align: justify;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+.textFunciona {
+  margin-bottom: 1.5em;
+}
+
+.ComoFunciona span {
+  line-height: 1.5;
+}
+
+/* consultas */
+.Consultas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.Consultas h1 {
+  width: 100%;
+  font-weight: 1000;
+  font-size: 40px;
+  letter-spacing: -4.6px;
+  color: rgb(0, 0, 135);
+  opacity: 0.1;
+}
+
+.Consultas h5 {
+  margin-top: -0.7em;
+  color: rgb(0, 0, 165);
+}
+
+.desconto {
+  color: rgb(0, 210, 0);
+}
+
+.Consultas h2 {
+  width: 85%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  color: rgb(0, 0, 135);
+}
+
+/* card consulta */
+.card-desktop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* padrao de cards */
+.card {
+  position: relative;
+  width: 90%;
+  height: 90vh;
+  border: solid 1px rgb(215, 215, 215);
+  border-radius: 8px;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.card::after {
+  content: "48%OFF";
+  width: 200px;
+  position: absolute;
+  top: 20px;
+  right: -70px;
+  transform: rotate(45deg);
+  background-color: rgb(0, 170, 255);
+  font-weight: 500;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.301);
+}
+
+/* card2 */
+.card-celular::after {
+  content: "35%OFF";
+  width: 200px;
+  position: absolute;
+  top: 20px;
+  right: -70px;
+  transform: rotate(45deg);
+  background-color: rgb(0, 170, 255);
+  font-weight: 500;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+/* card3 */
+.card-premium {
+  height: 112vh;
+}
+
+.card-premium::after {
+  content: "43%OFF";
+  width: 200px;
+  position: absolute;
+  top: 20px;
+  right: -70px;
+  transform: rotate(45deg);
+  background-color: rgb(0, 170, 255);
+  font-weight: 500;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.titulo {
+  padding-top: 1em;
+  font-weight: 800;
+}
+
+.descricao-premium {
+  width: 90%;
+  height: 30%;
+  margin-top: -1em;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(0, 0, 135);
+}
+
+.descricao-card {
+  width: 90%;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(0, 0, 135);
+}
+
+.card p {
+  text-decoration: line-through;
+}
+
+.price {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+  color: rgb(0, 0, 135);
+}
+
+.currency,
+.small-number {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 800;
+  top: 10px;
+}
+
+.currency {
+  left: 90px;
+}
+
+.currency-celular {
+  left: 70px;
+}
+
+.large-number {
+  font-size: 62px;
+  margin-left: 5px;
+}
+
+.info-list {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: -2em;
+  margin-right: 1.5em;
+  font-size: 14px;
+  font-weight: 500;
+  list-style-type: none;
+  padding: 0;
+}
+
+.info-list-premium {
+  margin-top: -6em;
+  margin-bottom: 0.5em;
+}
+
+.info-list li {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.info-list img {
+  padding-right: 1em;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.btnContrate {
+  width: 45%;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px;
+  margin-top: 4em;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  background-color: rgb(0, 201, 0);
+  transition: background-color 0.3s ease;
+}
+
+.btnContrate:hover {
+  background-color: rgb(0, 0, 135);
+}
+
+.btnContrate-premium {
+  margin-top: 1em;
+}
+
+.btnContrate-celular {
+  margin-top: 3em;
+}
+
+.textbtn {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Vantagens */
+.vantagens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.titulo-vantagens {
+  width: 100%;
+  font-weight: 1000;
+  font-size: 40px;
+  letter-spacing: -4.6px;
+  color: rgb(0, 0, 135);
+  opacity: 0.1;
+}
+
+.vantagens h5 {
+  margin-top: -0.7em;
+  color: rgb(0, 0, 165);
+}
+
+.sub-titulo {
+  color: rgb(0, 0, 135);
+}
+
+.text-vantagens {
+  width: 90%;
+  margin-top: 1em;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.CardsV-desktop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-info {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px rgb(210, 210, 210);
+  border-radius: 16px;
+  margin-top: 1em;
+  background-color: rgba(0, 0, 0, 0.103);
+}
+
+.card-info img {
+  width: 50px;
+  margin-top: 1.5em;
+  transition: width 0.3s ease;
+  /* Transição suave de 0.3 segundos */
+}
+
+.card-info img:hover {
+  width: 55px;
+}
+
+.card-info h3 {
+  font-size: 15px;
+  color: rgb(0, 0, 135);
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.card-info span {
+  width: 90%;
+  font-size: 14px;
+}
+
+.card-info a {
+  width: 50%;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 20px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: rgb(0, 170, 255);
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /* Transições suaves */
+}
+
+.card-info a:hover {
+  background-color: rgb(0, 81, 122);
+  transform: scale(1.1);
+  /* Aumenta a escala em 10% */
+}
+
+/* Depoimentos */
+.Depoimentos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.titulo-depoimentos {
+  width: 100%;
+  font-weight: 1000;
+  font-size: 40px;
+  letter-spacing: -4.6px;
+  color: rgb(0, 0, 135);
+  opacity: 0.1;
+}
+
+.Depoimentos h5 {
+  margin-top: -0.7em;
+  color: rgb(0, 0, 165);
+}
+
+.CardsD-desktop {
+  width: 90%;
+  margin-top: 2em;
+  background-color: rgba(0, 0, 0, 0.103);
+  border: solid 1px rgb(210, 210, 210);
+  border-radius: 16px;
+}
+
+.CardsD-desktop img {
+  width: 80%;
+  margin-top: 1em;
+  transition: transform 0.3s ease;
+}
+
+.CardsD-desktop img:hover {
+  transform: scale(0.9);
+}
+
+.card-dados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  margin-top: 1em;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.103);
+}
+
+.card-dados img {
+  width: 50px;
+  margin-top: 2em;
+}
+
+.card-dados h2,
+h3 {
+  color: rgb(0, 0, 165);
+}
+
+.card-dados span {
+  width: 90%;
+  text-align: justify;
+  margin: 2em auto;
+}
+
+.card-dados ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: justify;
+  margin-bottom: 1em;
+}
+
+.card-dados li {
+  text-align: left;
+  margin-top: 5px;
+}
+
+.progress-bar {
+  display: flex;
+  width: 85%;
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.progress {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  padding-right: 0.5em;
+  text-align: end;
+  width: 85%;
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 10px;
+}
+
+.progress1 {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  padding-right: 0.5em;
+  text-align: end;
+  width: 70%;
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 10px;
+}
+
+.progress2 {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  padding-right: 0.5em;
+  text-align: end;
+  width: 90%;
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 10px;
+}
+
+.progress3 {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  padding-right: 0.5em;
+  text-align: end;
+  width: 95%;
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 10px;
+
+}
+
+.titulo-barstatus {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.space {
+  margin-bottom: 2em;
+}
+
+/* FAQ */
+.FAQ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.titulo-FAQ {
+  width: 100%;
+  font-weight: 1000;
+  font-size: 40px;
+  letter-spacing: -4.6px;
+  color: rgb(0, 0, 135);
+  opacity: 0.1;
+}
+
+.FAQ h5 {
+  margin-top: -0.7em;
+  color: rgb(0, 0, 165);
+}
+
+.duvidas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.duvidas h3 {
+  width: 85%;
+  color: white;
+  margin-top: 1em;
+  padding: 5%;
+  background-color: #007bff;
+}
+
+.duvidas h4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  width: 90%;
+  margin-top: 0.5em;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 10px;
+  color: rgb(0, 0, 135);
+  background-color: rgba(255, 255, 255, 0.502);
+}
+
+.listalgpd {
+  width: 100%;
+  margin-top: 1em;
+  text-align: left;
+  padding-left: 0;
+}
+
+.listalgpd li {
+  margin-left: 0;
+  padding-top: 0.5em;
+
+}
+
+.contrate {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: #007bff;
+}
+
+.contrate h5 {
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.contrate span {
+  width: 90%;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.contrate a {
+  width: 50%;
+  color: white;
+  text-decoration: none;
+  border: solid 2px;
+  border-radius: 25px;
+  padding: 10px;
+  margin-top: 2em;
+  transition: transform 0.3s;
+}
+
+.contrate a:hover {
+  transform: scale(1.1);
+}
+
+/* contato */
+.contatos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wpp {
+  width: 52%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  border: solid 2px;
+  border-radius: 20px;
+  color: rgb(0, 200, 0);
+  transition: transform 0.3s;
+}
+
+.wpp:hover {
+  transform: scale(0.9);
+}
+
+.wppimg {
+  width: 50px;
+}
+
+.logocontato {
+  width: 200px;
+}
+
+.email {
+  display: flex;
+  margin-top: 1em;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.emailimg {
+  width: 30px;
+}
+.contatos h3{
+  margin-top: 2em;
+}
+.contatos a{
+  text-decoration: none;
+  cursor: pointer;
+}
+.contatos span{
+  text-align: center;
+}
+.pagamentoicon{
+  width: 50%;
+}
+.footer p{
+  padding: 10px;
+  text-align: center;
+  color: white;
+ background-color: #007bff;
+}
+.mobilehome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.desktopHome{
+  display: none;
+}
+.gif3{
+  display :none;
+}
+/* desktop */
+@media only screen and (min-width: 1024px) {
+  .mobilehome{
+    display: none;
+  }
+  
+  .imgMenu,.Menu-options, .Menu{
+    display: none;
+  }
+  .MenuDesktop{
+    width: 100%;
+    display: flex;
+    text-align: center;
+  }
+  .App-header{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -1em;
+    margin-bottom: 3em;
+  }
+  .App-logo{
+    width: 20%;
+    height: 20vh;
+    margin-left: 12em;
+  }
+  .navbar  {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 6em;
+  }
+  .navbar li {
+   display: flex;
+   margin-left: 2em;
+  }
+  .navbar a{
+    text-decoration: none;
+  
+  }
+  .btnheader {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    border-radius: 16px;
+    margin-left: 1em;
+    background-color: #007bff;
+    transition: transform 0.3s;
+  }
+  
+  .btnheader:hover {
+    transform: scale(1.03); 
+  }
+  .desktopHome, .text-home{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+  }
+  .home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btnContratar{
+    font-size: 18px;
+    margin-right: 1em;
+    width: 50%;
+    height: 3vh;
+  }
+  .text-home{
+    color: black;
+    font-size: 14px;
+    letter-spacing: 1px;
+    width: 150%;
+    text-align: justify;
+    margin-bottom: 1em;
+    margin-left: 2.5em;
+  }
+  .gif1{
+    margin-left: 10em;
+  }
+  .gif3{
+    display: flex;
+  }
+  .ComoFunciona h3{
+    width: 50%;
+    justify-content: space-between;
+    
+  }
+  .textFunciona{
+    font-weight: bold;
+  }
+  .descricao{
+    width: 40%;
+    text-align: center;
+
+  }
+  .card-desktop{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 31%;
+    margin-left: 15px;
+  }
+  .card-celular{
+    height: 95vh;
+  }
+  .text-vantagens{
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+  }
+  .CardsV-desktop{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    height: 100vh;
+  }
+  
+  .card-info{
+    justify-self: center;
+    align-self: center;
+  }
+  .card-info:hover{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  .Depoimentos{
+    margin-top: 4em;
+  }
+  .CardsD-desktop{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+  .CardsD-desktop img{
+    justify-self: center;
+    align-self: center;
+  }
+  .card-dados{
+    width: 50%;
+  }
+  .card-dados span{
+    width: 50%;
+    text-align: center;
+  }
+  .progress-bar{
+    width: 50%;
+  }
+  .titulo-barstatus{
+    justify-content: flex-start;
+    margin-left: 27em;
+  }
+
+  .card-dados ul{
+    display: flex;
+    margin-left: 50%;
+  }
+  .duvidas h3{
+    width: 50%;
+    padding: 10px;
+  }
+  .duvidas h4{
+    width: 50%;
+  }
+  .pagamentoicon{
+    width: 15%;
+    
+  }
+  .wpp{
+    width: 15%;
+  }
+  .footer p{
+    padding: 30px;
+  }
+ .titulo-vantagens ,.titulo-depoimentos, .titulo-FAQ, .Consultas h1{
+  font-size: 64px;
+  margin-top: 1em;
+ }
+}
