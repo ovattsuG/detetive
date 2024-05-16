@@ -280,7 +280,7 @@
 /* card3 */
 .card-premium {
   overflow-y: hidden;
-  height: 115vh;
+  height: 100vh;
 }
 
 .card-premium::after {
@@ -330,6 +330,7 @@
 .price {
   overflow-y: hidden;
   width: 100%;
+  height: 14vh;
   position: relative;
   display: inline-block;
   font-weight: 800;
@@ -368,7 +369,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin-top: -2em;
+  /* margin-top: -2em; */
   margin-right: 1.5em;
   font-size: 14px;
   font-weight: 500;
@@ -377,8 +378,8 @@
 }
 
 .info-list-premium {
+  margin-top: -8em;
   overflow-y: hidden;
-  margin-top: -6em;
   margin-bottom: 0.5em;
 }
 
@@ -946,9 +947,15 @@ h3 {
     height: 100vh;
   }
   .card-premium{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     height: 130vh;
   }
-
+  .info-list-premium{
+    margin-top: -6em;
+  }
   .card-desktop{
     height: 100%;
   }
@@ -1153,7 +1160,7 @@ h3 {
     overflow-y: hidden;
     width: 31%;
     margin-left: 15px;
-    height: 150vh;
+    height: 125vh;
   }
 
   .card-celular {
