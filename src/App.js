@@ -87,7 +87,7 @@ function App() {
 
   return (
     <div className="App">
-        {/* header */}
+      {/* header */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div className='MenuDesktop'>
@@ -96,7 +96,7 @@ function App() {
             <li><a href='#depoimentos'>Depoimentos</a></li>
             <li><a href='#como-Funciona'>Como Funciona</a></li>
             <li><a href='#faq'>FAQ</a></li>
-            <a className='btnheader'href='#Consultas'>CONTRATAR JÁ</a>
+            <a className='btnheader' href='#Consultas'>CONTRATAR JÁ</a>
           </ul>
         </div>
         <div className="Menu" onClick={toggleMenu}>
@@ -113,29 +113,29 @@ function App() {
           </ul>
         </div>
       )}
-         {/* home */}
+      {/* home */}
       <div className='home'>
         <div className='mobilehome'>
           <h1 className='titulo'>Precisa Encontrar Uma Pessoa e Não Sabe Como?</h1>
-        <span className='text-home'>Podemos te ajudar de forma rápida,
-          segura e sem Burocracia.
-          Somos especialistas em informações cadastrais.
-          Receba a investigação direto no seu WhatApp!
-        </span>
-        <a className='btnContratar'>Quero Contratar</a>
-        <img className='gif1' src={gif1} alt="gif" />
-        <img className='gif2' src={gif1} alt="gif" />
+          <span className='text-home'>Podemos te ajudar de forma rápida,
+            segura e sem Burocracia.
+            Somos especialistas em informações cadastrais.
+            Receba a investigação direto no seu WhatApp!
+          </span>
+          <a className='btnContratar'>Quero Contratar</a>
+          <img className='gif1' src={gif1} alt="gif" />
+          <img className='gif2' src={gif1} alt="gif" />
         </div>
         <div className='desktopHome'>
-        <img className='gif1' src={gif1} alt="gif" />
-        <h1 className='titulo'>Precisa Encontrar Uma Pessoa e Não Sabe Como?
-        <span className='text-home'>Podemos te ajudar de forma rápida,
-          segura e sem Burocracia.
-          Somos especialistas em informações cadastrais.
-          Receba a investigação direto no seu WhatApp!
-        </span><a className='btnContratar'>Quero Contratar</a>
-        </h1>
-        </div> 
+          <img className='gif1' src={gif1} alt="gif" />
+          <h1 className='titulo'>Precisa Encontrar Uma Pessoa e Não Sabe Como?
+            <span className='text-home'>Podemos te ajudar de forma rápida,
+              segura e sem Burocracia.
+              Somos especialistas em informações cadastrais.
+              Receba a investigação direto no seu WhatApp!
+            </span><a className='btnContratar'>Quero Contratar</a>
+          </h1>
+        </div>
       </div>
       {/* Como Funciona */}
       <div id='como-Funciona' className='ComoFunciona'>
@@ -603,8 +603,8 @@ function App() {
       </div>
       {/* contatos */}
       <div className='contatos'>
-        <img className='logocontato' src={logo} alt='logo'/>
-        <a className='wpp' href='#'><img className='wppimg'src={wppIcon}/>WhatApp Oficial</a>
+        <img className='logocontato' src={logo} alt='logo' />
+        <a className='wpp' href='#'><img className='wppimg' src={wppIcon} />WhatApp Oficial</a>
         <span className='email'><img className='emailimg' src={email} />Detetive@gmail.com</span>
         {/* Mudar links ou tirar indice */}
         <h3>Índice do Site</h3>
@@ -617,10 +617,10 @@ function App() {
         <h3>Horários de Atendimento</h3>
         <span>Todos os dias: das 8:30 ás 22h00 (Horário de Brasília)</span>
         <h3>Formas de Pagamento</h3>
-        <img className='pagamentoicon' src={iconpagamento}/>
+        <img className='pagamentoicon' src={iconpagamento} />
       </div>
       <footer className='footer'>
-      <p>Copyright &copy; Detetive Virtual 2024. Todos os direitos reservados.</p>
+        <p>Copyright &copy; Detetive Virtual 2024. Todos os direitos reservados.</p>
       </footer>
 
     </div>
